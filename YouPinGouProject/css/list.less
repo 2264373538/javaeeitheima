@@ -1,0 +1,75 @@
+
+//搜索栏“秒杀”字体
+.top_nav{
+    .topnav{
+        position: relative;
+        .left-img{
+            .ms{
+                position: absolute;
+                width: 86px;
+                height: 27px;
+                top: 38px;
+                left: 191px;
+                border-left: 1px #C81523 solid;
+                text-align: center;
+            }
+        }
+    }
+}
+
+// 分类栏
+.nav_auter{
+    width: 100%;
+    height: 45px;
+    border-bottom: 2px #C81523 solid;
+    .nav{
+        height: 45px;
+        line-height: 45px;
+        li{
+            float: left;
+            margin: 0px 25px;
+            font-size: 15px;
+            i{
+                font-weight: bold;
+            }
+            a:hover{
+                color: #C81523;
+            }
+        }
+        li:nth-child(1),
+        li:nth-child(2),
+        li:nth-child(3){
+            font-size: 17px;
+            font-weight: bold;
+            a{
+                color: black;
+            }
+            a:hover{
+                color: black;
+            }
+        }
+        li:nth-child(5){
+            a{
+                color: #C81523;
+            }
+        }
+    }
+}
+
+//商品列表
+.body_list{
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        li{
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+        li:hover{
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, .3);
+            transform: translateY(-10px);
+        }
+    }
+}
+

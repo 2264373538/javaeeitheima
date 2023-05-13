@@ -1,0 +1,51 @@
+{
+  "id": "2369754",
+  "name": "优品购",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "55163",
+      "name": "保障",
+      "font_class": "65",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "356472",
+      "name": "时钟",
+      "font_class": "shizhong",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "10485800",
+      "name": "shop",
+      "font_class": "shop",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "18368439",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "19762286",
+      "name": "右",
+      "font_class": "you-xi",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "19762292",
+      "name": "下",
+      "font_class": "xia-xi",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    }
+  ]
+}

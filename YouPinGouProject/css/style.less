@@ -1,0 +1,319 @@
+
+// 头部菜单栏
+.header_bar{
+    height: 45px;
+    width: 100%;
+    border-bottom: 2px #B1191A solid;
+    .headerbar{
+        height: 45px;
+        // background-color: wheat;
+        line-height: 45px;
+        position: relative;
+        li{
+            margin: 0px 25px;
+            float: left;
+        }
+        li:hover{
+            a{
+                color: #B1191A;   
+            }
+        }
+        .first,
+        .first:hover{
+            width: 210px;
+            height: 45px;
+            margin: 0px;
+            text-align: center;
+            background-color: #B1191A;
+            a{
+                color: white;
+            }
+        }
+        
+        .shop_list{
+            position: absolute;
+            top: 47px;
+            width: 210px;
+            height: 465px;
+            background-color: #C81623;
+            li{
+                width: 198px;
+                margin: 0px;
+                float: none;
+                padding-left: 10px;
+                margin-left: 2px;
+                height: 31px;
+                line-height: 31px;
+                a{
+                    font-size: 14px;
+                    color: white;
+                }
+            }
+            li::after{
+                content: '\e620';
+                float: right;
+                color: white;
+                line-height: 31px;
+                font-weight: bold;
+                margin-right: 10px;
+            }
+            li:hover{
+                background-color: white;
+                a{
+                    color: #B1191A;
+                }
+            }
+        }
+    }
+}
+
+//中部轮播图、快报模块
+.banner_auter{
+    .banner{
+        height: 455px;
+        margin-top: 10px;
+        // background: wheat;
+        .center_images{
+            height: 455px;
+            width: 721px;
+            margin: 0px 0px 0px 220px;
+            float: left;
+        }
+    
+        .right_bulletin{
+            width: 250px;
+            height: 455px;
+            float: right;
+            // margin-top: 10px;
+            //快报标题
+            .title{
+                height: 33px;
+                border: 1px #E4E4E4 solid;
+                border-bottom: 1px #E4E4E4 dotted;
+                line-height: 33px;
+                display: flex;
+                justify-content: space-between;
+                font-size: 14px;
+                .s1{
+                    margin-left: 10px;
+                    font-weight: bold;
+                }
+                .s2{
+                    margin-right: 10px;
+                    font-size: 12px;
+                    i{
+                        font-weight: bold;
+                    }
+                }
+                .s2:hover{
+                    color: #B1191A;
+                }
+            }
+            //快报列表
+            .list{
+                // width: 250px;
+                border-left: 1px #E4E4E4 solid;
+                border-right: 1px #E4E4E4 solid;
+                border-bottom: 1px #E4E4E4 solid;
+                ul{
+                    margin: 0px 15px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    font-size: 13px;
+                    li{
+                        width: 218px;
+                        height: 24px;
+                        line-height: 24px;
+                        overflow: inherit;
+                        strong{
+                            font-weight: bold;
+                            margin-right: 3px;
+                        }
+                        a:hover{
+                            color: #C81623;
+                        }
+                    }
+                }
+            }
+            //方格
+            .skip_list{
+                width: 250px;
+                height: 207px;
+                // background-color: wheat;
+                border-left: 1px #E4E4E4 solid;
+                ul{
+                    .first{
+                        width: 62px;
+                    }
+                    li{
+                        float: left;
+                        width: 61px;
+                        height: 68px;
+                        border-right: 1px #E4E4E4 solid;
+                        border-bottom: 1px #E4E4E4 solid;
+                        text-align: center;
+                        i{
+                            height: 50px;
+                            line-height: 45px;
+                            font-size: 25px;
+                            color: #C81623;
+                        }
+                        p{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+            .images{
+                height: 77px;
+                width: 250px;
+                margin-top: 7px;
+            }
+        }
+    }
+}
+
+//今日推荐栏
+.banner2_auter{
+    .banner2{
+        height: 163px;
+        margin-top: 12px;
+        // background-color: wheat; 
+        display: flex;
+        
+        .today{
+            width: 205px;
+            height: 163px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #5C5251;
+        }
+
+        .recommend{
+            height: 100%;
+            width: 995px;
+            background-color: #EBEBEB;
+            ul{
+                width: 100%;
+                display: flex;
+                position: relative;
+                li{
+                    width: 163px;
+                    width: 249px;
+                }
+                li:nth-child(1):after,
+                li:nth-child(2):after,
+                li:nth-child(3):after{
+                    content: '';
+                    position:absolute;
+                    width: 1px;
+                    height: 145px;
+                    top: 9px;
+                    background-color: #ddd;
+                }
+            }
+        }
+    }
+}
+
+// 家用电器栏
+.banner3_auter{
+    height: 812px;
+    // background-color: rgb(248, 231, 228);
+    .banner3{
+        height: 391px;
+        margin-top: 30px;
+
+        // 标题
+        .header_bar{
+            height: 28px;
+            border-bottom: 2px #B1191A solid;
+            display: flex;
+            justify-content: space-between;
+            line-height: 28px;
+            .left_title{
+                font-size: 19px;
+                color: #B1191A;
+            }
+            .right_menu{
+                height: 28px;
+                margin-right: 15px;
+                li{
+                    float: left;
+                    font-size: 12px;
+                    a:hover{
+                        color: #B1191A;
+                    }
+                    span{
+                        margin: 0px 15px;
+                    }
+                }
+                li:nth-child(1){
+                    a{
+                        color: #B1191A;
+                    }
+                }
+            }
+        }
+
+        // 主体
+        .body_auter{
+            height: 361px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .left_list{
+                width: 210px;
+                height: 361px;
+                background-color: #fbfbfb;
+                display: flex;
+                flex-wrap: wrap;
+                ul{
+                    height: 84px;
+                    width: 210px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    li{
+                        width: 85px;
+                        height: 33px;
+                        line-height: 33px;
+                        text-align: center;
+                        border-bottom: 1px #ddd solid;
+                        font-size: 13px;
+                    }
+                }
+                .imgs{
+                    margin: 0px auto;
+                }
+            }
+
+            .image_list{
+                height: 361px;
+                width: 990px;
+                ul{
+                    display: flex;
+                    .center_img1{
+                        border-right: 1px #CCCCCC solid;
+                        li:nth-child(1){
+                            height: 180px;
+                            border-bottom: 1px #CCCCCC solid;
+                        }
+                    }
+                    .img4{
+                        border-right: 1px #CCCCCC solid;
+                    }
+                    .center_img2{
+                        li:nth-child(1){
+                            height: 180px;
+                            border-bottom: 1px #CCCCCC solid;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 公共底栏见common.less

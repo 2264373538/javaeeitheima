@@ -1,0 +1,268 @@
+//顶部导航栏
+.top_bar{
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 31px;
+    .topbar{
+        display: flex;
+        justify-content: space-between;
+        height: 31px;
+        line-height: 31px;
+        font-size: 12px;
+        .left_login{
+            width: 230px;
+            height: 100%;
+            // background-color: red;
+            a:hover{
+                color: #CB1680;
+            }
+            .a2{
+                color: #CB1680;
+            }
+        }
+        .right_menu{
+            width: 635px;
+            height: 100%;
+            // background-color: wheat;
+            .rightmenu{
+                li{
+                    float: left;
+                    i{
+                        font-size: 12px;
+                        font-weight: bold;
+                        margin-left: 4px;
+                    }
+                    span{
+                        margin: 0px 14px;
+                        // font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//头部搜索栏
+.top_nav{
+    // margin-top: 10px;
+    height: 105px;
+    // background-color: wheat;
+    .topnav{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .center_search{
+            width: 538px;
+            height: 100%;
+            // background: lightpink;
+           
+            .search{
+                height: 32px;
+                margin-top: 19px;
+                width: 534px;
+                border: 2px #B1191A solid;
+                
+                input{
+                    float: left;
+                    font-size: 14px;
+                    height: 32px;
+                    width: 444px;
+                    border: none;
+                    padding: 0px;
+                    color: #757575;
+                    padding-left: 10px;
+                    
+                }
+                button{
+                    float: left;
+                    font-size: 16px;
+                    color: white;
+                    border: none;
+                    padding: 0px;
+                    width: 80px;
+                    height: 32px;
+                    background-color: #B1191A;
+                }
+            }
+            .bt_nav{
+                width: 528px;
+                height: 39px;
+                padding-left: 10px;
+                padding-top: 10px;
+
+                li{
+                    float: left;
+                    font-size: 12px;
+                    margin-right: 22px;
+                    a:hover{
+                        color: #C81623;
+                    }
+                }
+                li:nth-child(1){
+                    a{
+                        color: #C81623;
+                    }
+                }   
+            }
+        }
+        .right_shop{
+            position: relative;
+            height: 34px;
+            width: 140px;
+            margin-top: -25px;
+            background-color: #F7F7F7;
+            border: 1px #DFDFDF solid;
+            line-height: 34px;
+            text-align: center;
+            span{
+                font-size: 13px;
+            }
+            .shop_car{
+                color: #B1191A;
+                margin-right: 6px
+            }
+            .arrow{
+                color: #172B60;
+                font-weight: bold;
+                margin-left: 10px;
+            }
+            p{
+                position: absolute;
+                left: 105px;
+                top: -5px;
+                width: 18px;
+                height: 14px;
+                background-color: #E60012;
+                font-size: 12px;
+                text-align: center;
+                line-height: 14px;
+                color: white;
+                border-top-left-radius: 7px;
+                border-top-right-radius: 7px;
+                border-bottom-right-radius: 7px;
+            }
+        }
+    }
+}
+
+//底部公共栏
+.bottom1_auter{
+    height: 295px;
+    background-color: #F5F5F5;
+    .bottom1{
+        height: 109px;
+        border-bottom: 1px #CCCCCC solid;
+        ul{
+            display: flex;
+            justify-content: space-around;
+            li{
+                margin-top: 30px;
+                .i{
+                   width: 50px;
+                   height: 50px;
+                   float: left; 
+                   line-height: 50px;
+                   background-color: #C81623;
+                   text-align: center;
+                   border-radius: 25px;
+                   color: white;
+                   margin-right: 8px;
+                   i{
+                       font-size: 30px;
+                       font-weight: bold;
+                   }
+                }
+                .f{
+                    float: left;
+                    height: 50px;
+                    line-height: 17px;
+                    span{
+                        display: block;
+                        margin-top: 7px;
+                        font-size: 13px;
+                        font-weight: bold;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    
+    //服务指南
+    .service{
+        height: 164px;
+        border-bottom: 1px #CCC solid;//
+        
+        .service_in{
+            margin: 20px 50px 0px 50px;
+            display: flex;
+            justify-content: space-around;
+            .service_sun{
+                width: 200px;
+                height: 142px;
+                h1{
+                    font-size: 16px;
+                    height: 24px;
+                    margin-bottom: 10px;
+                }
+                li{
+                    font-size: 12px;
+                    line-height: 18px;
+                    a:hover{
+                        color: #C81623;
+                    }
+                }
+            }
+            .QRcode{
+                width: 90px;
+                height: 142px;
+                text-align: center;
+                h1{
+                    font-size: 16px;
+                    height: 24px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+//尾部备案栏
+.bottom_auter{
+    height: 93px;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 20px 0px;
+    .bottom{
+        height: 73px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        ul{
+            height: 18px;
+            line-height: 18px;
+            li{
+                float: left;
+                font-size: 12px;
+                a:hover{
+                    color: #C81623;
+                }
+                span{
+                    margin: 0px 5px;
+                }
+            }
+        }
+        .pp{
+            height: 20px;
+            line-height: 20px;
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+}

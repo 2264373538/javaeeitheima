@@ -1,0 +1,32 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="dui" unicode="&#58887;" d="M512 874C241.38 874 22 654.62 22 384s219.38-490 490-490 490 219.38 490 490S782.62 874 512 874z m259.66-369.85L481.12 213.62c-13.87-13.87-36.36-13.87-50.23 0L252.34 392.17c-13.87 13.87-13.87 36.36 0 50.23 13.87 13.87 36.36 13.87 50.23 0l153.44-153.44 265.42 265.42c13.87 13.87 36.36 13.87 50.23 0 13.87-13.87 13.87-36.36 0-50.23z"  horiz-adv-x="1024" />
+
+    
+    <glyph glyph-name="cuowu" unicode="&#58915;" d="M512 832C264.58 832 64 631.42 64 384s200.58-448 448-448 448 200.58 448 448S759.42 832 512 832z m215-612.05a36.11 36.11 0 0 0 0-50.95 36.11 36.11 0 0 0-50.91 0L512 333.09 348 169a36.11 36.11 0 0 0-51 0 36.11 36.11 0 0 0 0 50.91l164 164L297 548a36.11 36.11 0 0 0 0 51 36.11 36.11 0 0 0 51 0l164-164.09 164 164a36.11 36.11 0 0 0 51 0.09 36.11 36.11 0 0 0 0-51L562.91 384z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
